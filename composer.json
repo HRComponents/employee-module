@@ -1,6 +1,7 @@
 {
     "name": "codingmatters/employee-module",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Gab Amba",
@@ -20,7 +21,8 @@
     },
     "require": {
         "php": "^7.0",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "codingmatters/employee-service-repository": "^1.0 || dev-develop"
     },
     "require-dev": {
         "zendframework/zend-test": "^3.0.1",
